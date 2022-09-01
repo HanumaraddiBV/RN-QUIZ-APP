@@ -1,0 +1,306 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "reddy",
+      "email": "hanumaraddi_fw13_095@masai.school",
+      "password": "1234@Hn",
+      "report": []
+    },
+    {
+      "id": 19,
+      "name": "reddrt",
+      "email": "a@a.com",
+      "password": "123@Hn",
+      "report": [
+        {
+          "categoryName": "React",
+          "totalScore": 20,
+          "result": [
+            {
+              "correctAns": "Virtual DOM",
+              "selectedOption": "Virtual DOM",
+              "questionDescription": "Which of the following is used in React.js to increase performance? "
+            },
+            {
+              "correctAns": "user interface framework",
+              "selectedOption": "user interface framework",
+              "questionDescription": "\tWhat is ReactJS?"
+            },
+            {
+              "correctAns": "props",
+              "selectedOption": "setState",
+              "questionDescription": "Identify the one which is used to pass data to components from outside"
+            },
+            {
+              "correctAns": "Jordan Walke",
+              "selectedOption": "Jordan Mike",
+              "questionDescription": "Who created React.js?"
+            },
+            {
+              "correctAns": "Javascript",
+              "selectedOption": "Python",
+              "questionDescription": "In which language is React.js written?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "dcdccd",
+      "email": "c@c.com",
+      "password": "123@Hn",
+      "report": [
+        {
+          "categoryName": "React",
+          "totalScore": 30,
+          "result": [
+            {
+              "correctAns": "Virtual DOM",
+              "selectedOption": "Virtual DOM",
+              "questionDescription": "Which of the following is used in React.js to increase performance? "
+            },
+            {
+              "correctAns": "user interface framework",
+              "selectedOption": "user interface framework",
+              "questionDescription": "\tWhat is ReactJS?"
+            },
+            {
+              "correctAns": "props",
+              "selectedOption": "Render with arguments",
+              "questionDescription": "Identify the one which is used to pass data to components from outside"
+            },
+            {
+              "correctAns": "Jordan Walke",
+              "selectedOption": "Jordan Walke",
+              "questionDescription": "Who created React.js?"
+            },
+            {
+              "correctAns": "Javascript",
+              "selectedOption": "Python",
+              "questionDescription": "In which language is React.js written?"
+            }
+          ]
+        },
+        {
+          "categoryName": "Javascript",
+          "totalScore": 10,
+          "result": [
+            {
+              "correctAns": "Both",
+              "selectedOption": "var",
+              "questionDescription": "Which of the following keywords is used to define a variable in Javascript? "
+            },
+            {
+              "correctAns": "both a and b",
+              "selectedOption": "getElementsByClassName()",
+              "questionDescription": "Which of the following methods is used to access HTML elements using Javascript?"
+            },
+            {
+              "correctAns": "Ignores the statements",
+              "selectedOption": "Ignores the statements",
+              "questionDescription": "Upon encountering empty statements, what does the Javascript Interpreter do?"
+            },
+            {
+              "correctAns": "const",
+              "selectedOption": "varlet",
+              "questionDescription": "How can a datatype be declared to be a constant type?"
+            },
+            {
+              "correctAns": "in",
+              "selectedOption": "is in",
+              "questionDescription": "What keyword is used to check whether a given property is valid or not?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "treddy",
+      "email": "c@c.com",
+      "password": "123@Hn",
+      "report": []
+    }
+  ],
+  "questionData": [
+    {
+      "id": 1,
+      "category": "React",
+      "questions": [
+        {
+          "question": "Which of the following is used in React.js to increase performance? ",
+          "options": [
+            "Virtual DOM",
+            "Origin DOM",
+            "Both",
+            "None of the above"
+          ],
+          "answer": "Virtual DOM"
+        },
+        {
+          "question": "\tWhat is ReactJS?",
+          "options": [
+            "Server-side framework",
+            "user interface framework",
+            "both a and b",
+            "None of the above"
+          ],
+          "answer": "user interface framework"
+        },
+        {
+          "question": "Identify the one which is used to pass data to components from outside",
+          "options": [
+            "Render with arguments",
+            "setState",
+            "PropTypes",
+            "props"
+          ],
+          "answer": "props"
+        },
+        {
+          "question": "Who created React.js?",
+          "options": [
+            "Jordan Mike",
+            "Jordan Walke",
+            "Tim lee",
+            "Jordan Lee"
+          ],
+          "answer": "Jordan Walke"
+        },
+        {
+          "question": "In which language is React.js written?",
+          "options": [
+            "Python",
+            "Javascript",
+            "Java",
+            "PHP"
+          ],
+          "answer": "Javascript"
+        }
+      ]
+    },
+    {
+      "category": "Javascript",
+      "id": 2,
+      "questions": [
+        {
+          "question": "Which of the following keywords is used to define a variable in Javascript? ",
+          "options": [
+            "var",
+            "let",
+            "Both",
+            "None of the above"
+          ],
+          "answer": "Both"
+        },
+        {
+          "question": "Which of the following methods is used to access HTML elements using Javascript?",
+          "options": [
+            "getElementById()",
+            "getElementsByClassName()",
+            "both a and b",
+            "None of the above"
+          ],
+          "answer": "both a and b"
+        },
+        {
+          "question": "Upon encountering empty statements, what does the Javascript Interpreter do?",
+          "options": [
+            "Throws an error",
+            "Ignores the statements",
+            "Gives a warning",
+            "None of the above"
+          ],
+          "answer": "Ignores the statements"
+        },
+        {
+          "question": "How can a datatype be declared to be a constant type?",
+          "options": [
+            "const",
+            "varlet",
+            "constants"
+          ],
+          "answer": "const"
+        },
+        {
+          "question": "What keyword is used to check whether a given property is valid or not?",
+          "options": [
+            "in",
+            "is in",
+            "exists",
+            "lies"
+          ],
+          "answer": "in"
+        },
+        {
+          "question": "what is the value of null",
+          "options": [
+            "true",
+            "false",
+            "1",
+            "0"
+          ],
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Java",
+      "questions": [
+        {
+          "question": "Number of primitive data types in Java are?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": "8"
+        },
+        {
+          "question": "What is the size of float and double in java?",
+          "options": [
+            "32 and 64",
+            "32 and 32",
+            "64 and 64",
+            "64 and 32"
+          ],
+          "answer": "32 and 64"
+        },
+        {
+          "question": "Automatic type conversion is possible in which of the possible cases?",
+          "options": [
+            "Byte to int",
+            "int to long",
+            "long to int",
+            "short to int"
+          ],
+          "answer": "int to long"
+        },
+        {
+          "question": "When an array is passed to a method, what does the method receive?",
+          "options": [
+            "The reference of the array",
+            "a copy of the array",
+            "Length of the array",
+            "Copy of first element"
+          ],
+          "answer": "The reference of the array"
+        },
+        {
+          "question": "Arrays in java are-",
+          "options": [
+            "object references",
+            "objects",
+            "primitive data types",
+            "None"
+          ],
+          "answer": "objects"
+        }
+      ]
+    }
+  ]
+}

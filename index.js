@@ -9,18 +9,14 @@ import App from './App';
 import {name as appName} from './app.json';
 import {Store} from './src/Redux/store';
 
-
-LogBox.ignoreAllLogs(true);
+LogBox.ignoreAllLogs(true);   
 const RNRedux = () => (
-  
-
   <Provider store={Store}>
     {/* <PersistGate loading={<Text>Loading...</Text>} persistor={persistor}> */}
 
     <App />
     {/* </PersistGate> */}
   </Provider>
- 
 );
 
 AppRegistry.registerComponent(appName, () => RNRedux);
